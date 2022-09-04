@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: "FuturaNewDemi-Reg";
+    src: url("./fonts/Futura/FuturaNewDemi-Reg.eot");
+    src: url("./fonts/Futura/FuturaNewDemi-Reg.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Futura/FuturaNewDemi-Reg.woff") format("woff"),
+    url("./fonts/Futura/FuturaNewDemi-Reg.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SCHOOLB0";
+    src: url("./fonts/SchoolBook/SCHOOLB0.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

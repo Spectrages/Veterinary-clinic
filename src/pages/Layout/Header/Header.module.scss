@@ -1,0 +1,41 @@
+@import "./src/colors";
+
+@mixin text {
+  font-family: FuturaNewDemi-Reg, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  margin-top: 65px;
+  width: 1760px / 1920px * 100%;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.title_text{
+  @include text;
+  color: $lightBrown;
+  margin-top: 40px;
+}
+
+.title_block{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.city_block{
+  @include text;
+  color: $orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+}
